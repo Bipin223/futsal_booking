@@ -3,51 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FutsalBook Nepal</title>
+    <meta name="description" content="Bipin Futsal — Easy online court booking in Damak, Jhapa.">
+    <title>Bipin Futsal — Court Booking</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
 </head>
 <body>
 
-    <nav>
-        <h1>⚽ Bipin Footsal pvt ltd</h1>
-    </nav>
-
-    <div class="hero">
-        <h2>Book Your Futsal Court</h2>
-        <p>Easy, fast and hassle-free court booking in Kathmandu</p>
-        <a href="#slots" class="btn">View Available Slots</a>
-    </div>
-
-    <div class="info" id="slots">
-        <h3>Court Information</h3>
-        <ul>
-            <li>📍 Location: Damak, Jhapa</li>
-            <li>⏰ Opening Hours: 6:00 AM – 10:30 PM</li>
-            <li>📞 Contact: 9800000000</li>
-            <li>💵 Rate: Rs. 1500 per 1.5 hour slot</li>
-            <li>Contact mr. Bipin: 9800000000</li>
-        </ul>
-    </div>
-
-    <div class="slots">
-        <h3>Today's Time Slots</h3>
-        <div class="slot-grid">
-            <div class="slot available">06:00 AM – 07:30 AM</div>
-            <div class="slot available">07:30 AM – 09:00 AM</div>
-            <div class="slot booked">09:00 AM – 10:30 AM</div>
-            <div class="slot available">10:30 AM – 12:00 PM</div>
-            <div class="slot booked">12:00 PM – 01:30 PM</div>
-            <div class="slot available">01:30 PM – 03:00 PM</div>
-            <div class="slot available">03:00 PM – 04:30 PM</div>
-            <div class="slot available">04:30 PM – 06:00 PM</div>
-            <div class="slot booked">06:00 PM – 07:30 PM</div>
-            <div class="slot available">07:30 PM – 09:00 PM</div>
-            <div class="slot available">09:00 PM – 10:30 PM</div>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="logo">⚽ <span class="brand">Bipin Futsal</span></div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#slots">Slots</a></li>
+                    <li><a href="#info">Info</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-inner">
+                <h1>Book Your Futsal Court</h1>
+                <p class="lead">Fast, reliable and hassle-free court bookings in Damak, Jhapa.</p>
+                <div class="hero-cta">
+                    <a href="#slots" class="btn">View Available Slots</a>
+                    <a href="#contact" class="btn btn-ghost">Contact Us</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="info" id="info">
+            <div class="container">
+                <h2>Court Information</h2>
+                <ul>
+                    <li>Location: Damak, Jhapa</li>
+                    <li>Opening Hours: 6:00 AM – 10:30 PM</li>
+                    <li>Contact: 9800000000 (Mr. Bipin)</li>
+                    <li>Rate: Rs. 1500 per 1.5 hour slot</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="slots" id="slots">
+            <div class="container">
+                <h2>Today's Time Slots</h2>
+                <div class="slot-grid">
+                    <div class="slot available">06:00 AM – 07:30 AM</div>
+                    <div class="slot available">07:30 AM – 09:00 AM</div>
+                    <div class="slot booked">09:00 AM – 10:30 AM</div>
+                    <div class="slot available">10:30 AM – 12:00 PM</div>
+                    <div class="slot booked">12:00 PM – 01:30 PM</div>
+                    <div class="slot available">01:30 PM – 03:00 PM</div>
+                    <div class="slot available">03:00 PM – 04:30 PM</div>
+                    <div class="slot available">04:30 PM – 06:00 PM</div>
+                    <div class="slot booked">06:00 PM – 07:30 PM</div>
+                    <div class="slot available">07:30 PM – 09:00 PM</div>
+                    <div class="slot available">09:00 PM – 10:30 PM</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2>Get in touch</h2>
+                <p>For group bookings or inquiries call <strong>9800000000</strong> or visit us in person.</p>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2024 Bipin Footsal pvt ltd. All rights reserved.</p>
+        <div class="container footer-inner">
+            <p>&copy; 2026 Bipin Futsal. All rights reserved.</p>
+        </div>
     </footer>
 
 </body>
